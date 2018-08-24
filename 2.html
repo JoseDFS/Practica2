@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Curriculum Vitae</h1>
+    <form action="index.html" method="POS">
+        <fieldset>
+            <legend>Personal Data</legend>
+            <label for="DUI">DUI</label>
+            <input type="text" placeholder="12345678-7">
+            <label for="First Name">First Name:</label>
+            <input type="text" placeholder="Jose">
+            <label for="Last Name">Last Name:</label>
+            <input type="text" placeholder="Segura">
+            <label for="Gender">Gender:</label>
+            <input type="radio">M
+            <input type="radio">F <br><br>
+            <label for="Contact Number">Contact Number:</label>
+            <input type="text">
+            <label for="Birthdate">Birthdate:</label>
+            <input type="date" name="Birthdate" id="Birthdate" placeholder="06/28/1998">
+            <label for="Civil Status">Civil Status:</label>
+            <select name="Civil Status">
+                <option value="Single">Single</option>
+                <option value="Married">Married</option>
+            </select>
+            <label for="Image">Image:</label>
+            <input type="file">
+
+
+        </fieldset><br>
+        <fieldset>
+            <legend>Work Experience</legend>
+            <textarea rows"100" cols="150">Experience</textarea>
+        </fieldset><br>
+        <fieldset>
+            <legend>Academic Training</legend>
+            <textarea rows"100" cols="150">Academic Training</textarea>
+        </fieldset><br>
+        <fieldset>
+            <legend>Further Training</legend>
+            <fieldset>
+                <legend>Programming Lenguages</legend>
+                <input type="checkbox" name="Java[]" value="Java"> Java
+                <input type="checkbox" name="C#[]" value="C#" > C#
+                <input type="checkbox" name="Python[]" value="Python"> Python
+                <input type="checkbox" name="C++[]" value="C++"> C++
+                <input type="checkbox" name="Ruby[]" value="Ruby"> Ruby
+
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Web Technologies</legend>
+                <input type="checkbox" name="HTML5[]" value="HTML5"> HTML5
+                <input type="checkbox" name="CSS/CSS3[]" value="CSS"> CSS/CSS3
+                <input type="checkbox" name="[]" value="Python"> Python
+                <input type="checkbox" name="matrialize CSS[]" value="matrialize CSS"> CSS
+                <input type="checkbox" name="Javascript[]" value="Javascript"> Javascript
+                <input type="checkbox" name="Node.js[]" value="Node.js"> Node.js
+                <input type="checkbox" name="Spring MVC[]" value="Sprinf MVC"> Spring MVC
+
+            </fieldset>
+        </fieldset>
+        <br>
+        <input type="submit" value="Send">
+        <button>
+            <a href="index.html">Cancel</a>
+        </button>
+    </form>
+</body>
+</html>
