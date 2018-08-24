@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,48 +9,54 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
 </head>
+
 <body>
     <h1>Curriculum Vitae</h1>
     <form action="index.html" method="POS">
         <fieldset>
             <legend>Personal Data</legend>
             <label for="DUI">DUI</label>
-            <input type="text" placeholder="12345678-7">
+            <input type="text" placeholder="12345678-7" required>
             <label for="First Name">First Name:</label>
-            <input type="text" placeholder="Jose">
+            <input type="text" placeholder="Jose" required>
             <label for="Last Name">Last Name:</label>
-            <input type="text" placeholder="Segura">
+            <input type="text" placeholder="Segura" required>
             <label for="Gender">Gender:</label>
             <input type="radio">M
-            <input type="radio">F <br><br>
+            <input type="radio">F
+            <br>
+            <br>
             <label for="Contact Number">Contact Number:</label>
             <input type="text">
             <label for="Birthdate">Birthdate:</label>
-            <input type="date" name="Birthdate" id="Birthdate" placeholder="06/28/1998">
+            <input type="date" name="Birthdate" id="Birthdate" placeholder="06/28/1998" required>
             <label for="Civil Status">Civil Status:</label>
             <select name="Civil Status">
                 <option value="Single">Single</option>
                 <option value="Married">Married</option>
             </select>
             <label for="Image">Image:</label>
-            <input type="file">
+            <input type="file" required>
 
 
-        </fieldset><br>
+        </fieldset>
+        <br>
         <fieldset>
             <legend>Work Experience</legend>
-            <textarea rows"100" cols="150">Experience</textarea>
-        </fieldset><br>
+            <textarea rows "100" cols="150">Experience</textarea>
+        </fieldset>
+        <br>
         <fieldset>
             <legend>Academic Training</legend>
-            <textarea rows"100" cols="150">Academic Training</textarea>
-        </fieldset><br>
+            <textarea rows "100" cols="150">Academic Training</textarea>
+        </fieldset>
+        <br>
         <fieldset>
             <legend>Further Training</legend>
             <fieldset>
                 <legend>Programming Lenguages</legend>
                 <input type="checkbox" name="Java[]" value="Java"> Java
-                <input type="checkbox" name="C#[]" value="C#" > C#
+                <input type="checkbox" name="C#[]" value="C#"> C#
                 <input type="checkbox" name="Python[]" value="Python"> Python
                 <input type="checkbox" name="C++[]" value="C++"> C++
                 <input type="checkbox" name="Ruby[]" value="Ruby"> Ruby
@@ -75,4 +82,5 @@
         </button>
     </form>
 </body>
+
 </html>
